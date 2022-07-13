@@ -13,8 +13,8 @@ The major part of the code is in the directory `plugin/track`. To use this code 
 ## Environment
 
 First, install: 
-1. mmcv==1.3.14
-2. mmdetection==2.12.0
+1. mmcv==1.3.14   #这里要用mmcv-full==1.3.14
+2. mmdetection==2.12.0 #好像要用2.10.0或者2.11.0
 3. [nuscenses-devkit](https://github.com/nutonomy/nuscenes-devkit)
 4. Note: for tracking we need to install:
 `motmetrics==1.1.3`, not newer version, like `motmetrics==1.2.0`!!

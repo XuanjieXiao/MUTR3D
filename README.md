@@ -17,8 +17,8 @@ First, install:
 2. mmdetection==2.12.0    # mmdet==2.12.0
 3. [nuscenses-devkit](https://github.com/nutonomy/nuscenes-devkit)    # nuscenes-devkit
 4. Note: for tracking we need to install:
-`motmetrics==1.1.3`, not newer version, like `motmetrics==1.2.0`!!
-# motmetrics==1.1.3
+`motmetrics==1.1.3`, not newer version, like `motmetrics==1.2.0`!!   # motmetrics==1.1.3
+
 Second, clone mmdetection3d==0.13.0, but replace its `mmdet3d/api/` from mmdetection3d by `mmdet3d/api/` in this repo.
 
 e.g. 

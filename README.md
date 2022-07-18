@@ -31,6 +31,7 @@ git checkout v0.13.0
 # cp ../mmdet3d/models/detectors/mvx_two_stage.py mmdet3d/models/detectors/mvx_two_stage.py
 
 # replace the mmdetection3d/mmdet3d with the mmdet3d_full
+rm -r mmdet3d/
 cp -r ../mmdet3d_full ./mmdet3d
 
 cp -r ../plugin ./ 

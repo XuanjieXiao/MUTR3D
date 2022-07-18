@@ -37,9 +37,10 @@ cp -r ../plugin ./
 cp -r ../tools ./ 
 # then install mmdetection3d following its instruction. 
 # and mmdetection3d becomes your new working directories. 
+#pip install -v -e .
 ```
 
-#pip install -v -e .
+
 
 ### Dataset preprocessing
 After preparing the nuScenes Dataset following mmdetection3d,  you need to generate a meta file or say `.pkl` file. 

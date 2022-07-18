@@ -37,7 +37,7 @@ cp -r ../plugin ./
 cp -r ../tools ./ 
 # then install mmdetection3d following its instruction. 
 # and mmdetection3d becomes your new working directories. 
-#pip install -v -e .
+pip install -v -e .
 ```
 
 

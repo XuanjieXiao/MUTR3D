@@ -64,6 +64,17 @@ cp -r ../plugin ./
 cp -r ../tools ./ 
 # then install mmdetection3d following its instruction. 
 # and mmdetection3d becomes your new working directories. 
+
+修改setup.py
+添加
+make_cuda_ext(
+                name='iou_loss_ext',
+                module='mmdet3d.ops.iou_loss',
+                sources=['src/sort_vert.cpp'],
+                sources_cuda=['src/sort_vert_kernel.cu'])
+
+
+
 pip install -v -e .
 ```
 

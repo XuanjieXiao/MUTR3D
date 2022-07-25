@@ -11,7 +11,7 @@ The major part of the code is in the directory `plugin/track`. To use this code 
 
 
 ## Environment
-
+```
 PyTorch: 1.10.2+cu113
 TorchVision: 0.11.3+cu113
 OpenCV: 4.5.5
@@ -24,7 +24,7 @@ MMDetection3D: 0.13.0+b255d16
 使用pip uninstall torch,torchvision
 然后再安装这两个，不然后面会报错，也是直接用pip install 安装就好
 opencv也直接卸载，然后等安装了mmdet3d之后，他会自己安装一个最新版本，你再下载相关的contribute的模块包
-
+```
 
 
 

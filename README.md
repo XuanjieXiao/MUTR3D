@@ -12,12 +12,37 @@ The major part of the code is in the directory `plugin/track`. To use this code 
 
 ## Environment
 
+PyTorch: 1.10.2+cu113
+TorchVision: 0.11.3+cu113
+OpenCV: 4.5.5
+MMCV: 1.3.16
+MMCV Compiler: GCC 9.4
+MMCV CUDA Compiler: 11.3
+MMDetection: 2.12.0
+MMDetection3D: 0.13.0+b255d16
+
+使用pip uninstall torch,torchvision
+然后再安装这两个，不然后面会报错，也是直接用pip install 安装就好
+opencv也直接卸载，然后等安装了mmdet3d之后，他会自己安装一个最新版本，你再下载相关的contribute的模块包
+
+
+
+
 First, install: 
-1. mmcv==1.3.14   #这里要用mmcv-full==1.3.14
+1. mmcv==1.3.14   #这里要用mmcv-full==1.3.14 docker中使用1.3.16也是匹配的，需要装1.3.16最好
+这个需要使用官方的语句进行安装，要和相关的cuda和pytorch 对应起来，不然后面也会报错，类似这种，原先的语句我忘记了，自己进行测试看看
+pip install mmcv-full==1.3.14 -f https://download.openmmlab.com/mmcv/dist/cu115/torch1.11.0/index.html
+
+
 2. mmdetection==2.12.0    # mmdet==2.12.0
 3. [nuscenses-devkit](https://github.com/nutonomy/nuscenes-devkit)    # nuscenes-devkit
 4. Note: for tracking we need to install:
 `motmetrics==1.1.3`, not newer version, like `motmetrics==1.2.0`!!   # motmetrics==1.1.3
+
+
+
+
+
 
 Second, clone mmdetection3d==0.13.0, but replace its `mmdet3d/api/` from mmdetection3d by `mmdet3d/api/` in this repo.
 

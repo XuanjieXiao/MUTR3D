@@ -92,8 +92,13 @@ pip install -v -e .
 
 ```
 opencv的问题，docker请使用opencv-python-headless
-pip install opencv-python-headless==4.5.5.62
+
 pip install opencv-contrib-python==4.5.5.62
+
+切记切记！！！！
+最后安装这个才行
+pip install opencv-python-headless==4.5.5.62
+
 ```
 
 
@@ -160,3 +165,13 @@ For the implementation, we rely heavily on [MMCV](https://github.com/open-mmlab/
 ```
 
 Contact: [Tianyuan Zhang](http://tianyuanzhang.com/) at: `tianyuaz@andrew.cmu.edu` or `tianyuanzhang1998@gmail.com`
+
+```
+注意！！！
+ImportError: numpy.core.multiarray failed to import
+报这个错误，其实是cv2，opencv的问题
+一定要注意安装顺序和需求的opencv版本，docker是需要headless的，注意！！！！
+卸载一下，重装即可，不需要去动numpy
+
+
+```

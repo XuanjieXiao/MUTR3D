@@ -14,6 +14,9 @@ The major part of the code is in the directory `plugin/track`. To use this code 
 ```
 PyTorch: 1.10.2+cu113
 TorchVision: 0.11.3+cu113
+pip uninstall torch
+pip uninstall torchversion
+pip install torch==1.10.2+cu113 torchvision==0.11.3+cu113 torchaudio==0.10.2 --extra-index-url https://download.pytorch.org/whl/cu113
 OpenCV: 4.5.5
 MMCV: 1.3.16
 MMCV Compiler: GCC 9.4

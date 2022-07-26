@@ -174,4 +174,8 @@ ImportError: numpy.core.multiarray failed to import
 卸载一下，重装即可，不需要去动numpy
 
 
+opencv-contrib-python     4.5.5.62                 pypi_0    pypi
+opencv-python             4.5.5.62                 pypi_0    pypi
+opencv-python-headless    4.5.5.62                 pypi_0    pypi
+
 ```

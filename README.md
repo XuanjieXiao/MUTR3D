@@ -53,7 +53,7 @@ pip install motmetrics==1.1.3
 ```
 
 
-
+opencv的问题，docker请使用opencv-python-headless
 
 
 Second, clone mmdetection3d==0.13.0, but replace its `mmdet3d/api/` from mmdetection3d by `mmdet3d/api/` in this repo.

@@ -36,7 +36,7 @@ First, install:
 1. mmcv==1.3.14   #这里要用mmcv-full==1.3.14 docker中使用1.3.16也是匹配的，需要装1.3.16最好
 这个需要使用官方的语句进行安装，要和相关的cuda和pytorch 对应起来，不然后面也会报错，类似这种，原先的语句我忘记了，自己进行测试看看
 ```
-pip install mmcv-full==1.3.16 -f https://download.openmmlab.com/mmcv/dist/cu113/torch1.10.2/index.html
+pip install mmcv-full==1.3.16 -f https://download.openmmlab.com/mmcv/dist/cu113/torch1.10.0/index.html
 ```
 
 2. mmdetection==2.12.0    # mmdet==2.12.0

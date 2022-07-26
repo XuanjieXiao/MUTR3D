@@ -90,6 +90,11 @@ make_cuda_ext(
 pip install -v -e .
 ```
 
+```
+opencv的问题，docker请使用opencv-python-headless
+pip install opencv-python-headless==4.5.5.62
+pip install opencv-contrib-python==4.5.5.62
+```
 
 
 ### Dataset preprocessing

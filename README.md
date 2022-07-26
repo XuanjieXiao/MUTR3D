@@ -12,6 +12,7 @@ The major part of the code is in the directory `plugin/track`. To use this code 
 
 ## Environment
 ```
+Python 3.8
 PyTorch: 1.10.2+cu113
 TorchVision: 0.11.3+cu113
 pip uninstall torch
